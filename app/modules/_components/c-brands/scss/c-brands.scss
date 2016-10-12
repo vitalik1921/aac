@@ -1,0 +1,55 @@
+@import "../../../../base/core/mixins";
+//
+//*****************************************************************************
+// c-brands
+//*****************************************************************************
+//
+//
+@include block(c-brands) {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+
+	@include element(item) {
+		display: block;
+	}
+	@include element(link) {
+		@include text-hide();
+		display: block;
+		width: 124px;
+		height: 124px;
+		background-size: contain;
+		background-repeat: 0 0;
+
+		@include modifier(brand1) {
+			background-image: url('../img/brand1.png');
+		}
+		@include modifier(brand2) {
+			background-image: url('../img/brand2.png');	
+		}
+		@include modifier(brand3) {
+			background-image: url('../img/brand3.png');
+		}
+		@include modifier(brand4) {
+			background-image: url('../img/border-right: 4px;.png');
+		}
+	}
+    // media queries
+    @include media-breakpoint-only(xs) {
+        & {}
+    }
+    @include media-breakpoint-only(sm) {
+        & {}
+    }
+    @include media-breakpoint-only(md) {
+        & {}
+    }
+    @include media-breakpoint-only(lg) {
+        & {}
+    }
+    @include media-breakpoint-only(xl) {
+        & {}
+    }
+}

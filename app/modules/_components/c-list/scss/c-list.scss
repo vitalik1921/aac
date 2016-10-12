@@ -1,25 +1,20 @@
-@import "../../../base/core/mixins";
+@import "../../../../base/core/mixins";
 //
 //*****************************************************************************
-// b-logo
+// c-list
 //*****************************************************************************
 //
 //
-@include block(b-logo) {
-    @include element(item) {
-        @include text-hide();
-        display: block;
-        width: 211px;
-        height: 76px;
-        background: url('../img/logo.svg') 0 0 no-repeat;
-        background-size: contain;
-    }
-    //mod - black
-    @include modifier(black) {
-        @include element(item) {
-            background: url('../img/logo--black.svg') 0 0 no-repeat;
-        }
-    }
+@include block(c-list) {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	@include element(item) {
+		font-weight: 100;
+		font-size: 12px;
+		line-height: 20px;
+	}
+    // media queries
     @include media-breakpoint-only(xs) {
         & {}
     }

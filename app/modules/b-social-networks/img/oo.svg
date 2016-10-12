@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="22.99px" height="22.991px" viewBox="0 0 22.99 22.991" enable-background="new 0 0 22.99 22.991" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="22.99" height="22.99"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="#BDDDE1" d="M2.426,0C2.426,0,0,0,0,2.426v18.139c0,0,0,2.425,2.426,2.425h18.139
+		c0,0,2.426,0,2.426-2.425V2.426c0,0,0-2.426-2.426-2.426H2.426z"/>
+	<path clip-path="url(#SVGID_2_)" fill="#BDDDE1" d="M11.704,18.447c3.282,0,5.943-2.661,5.943-5.943s-2.661-5.943-5.943-5.943
+		s-5.943,2.661-5.943,5.943S8.422,18.447,11.704,18.447"/>
+	<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#FFFFFF" stroke-width="2" cx="11.704" cy="12.504" r="5.943"/>
+	<path clip-path="url(#SVGID_2_)" fill="#FFFFFF" d="M19.069,4.868c0.591,0,1.069-0.479,1.069-1.07c0-0.591-0.479-1.069-1.069-1.069
+		s-1.07,0.478-1.07,1.069C17.999,4.389,18.479,4.868,19.069,4.868"/>
+	<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#FFFFFF" stroke-width="1.284" cx="19.069" cy="3.799" r="1.07"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_3_" y="0" width="22.99" height="22.99"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_4_)" fill="#BDDDE1" d="M2.426,0C2.426,0,0,0,0,2.426v18.139c0,0,0,2.425,2.426,2.425h18.139
+		c0,0,2.426,0,2.426-2.425V2.426c0,0,0-2.426-2.426-2.426H2.426z"/>
+	<path clip-path="url(#SVGID_4_)" fill="#BDDDE1" d="M11.704,18.447c3.282,0,5.943-2.661,5.943-5.943s-2.661-5.943-5.943-5.943
+		s-5.943,2.661-5.943,5.943S8.422,18.447,11.704,18.447"/>
+	<circle clip-path="url(#SVGID_4_)" fill="none" stroke="#FFFFFF" stroke-width="2" cx="11.704" cy="12.504" r="5.943"/>
+	<path clip-path="url(#SVGID_4_)" fill="#FFFFFF" d="M19.069,4.868c0.591,0,1.069-0.479,1.069-1.07c0-0.591-0.479-1.069-1.069-1.069
+		s-1.07,0.478-1.07,1.069C17.999,4.389,18.479,4.868,19.069,4.868"/>
+	<circle clip-path="url(#SVGID_4_)" fill="none" stroke="#FFFFFF" stroke-width="1.284" cx="19.069" cy="3.799" r="1.07"/>
+</g>
+</svg>

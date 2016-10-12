@@ -1,0 +1,74 @@
+@import "../../../base/core/mixins";
+//
+//*****************************************************************************
+// b-content-row
+//*****************************************************************************
+//
+//
+@include block(b-content-row) {
+	display: flex;
+	background-color: #fff;
+	@include element(image-wrap) {
+		width: 50%;
+		flex-shrink: 0;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		
+	}
+	@include element(image) {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		flex-shrink: 0;
+		flex-grow: 0;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	@include mix(c-text, content) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		h3 {
+			text-transform: uppercase;
+			color: #737373;
+			font-weight: 100;
+			font-size: 25px;
+			line-height: 25px;
+			margin-bottom: 40px;
+			margin-top: 0;
+		}
+		p {
+			color: #737373;
+			font-weight: 100;
+			font-size: 14px;
+			line-height: 19px;
+		}
+	}
+	@include modifier(centered) {
+		@include element(image-wrap) {
+			align-items: center;
+		}
+	}
+	@include modifier(green) {
+		background-color: #DBE6E7;
+	}
+	@include modifier(reverse) {
+		flex-direction: row-reverse;
+	}
+    // media queries
+    @include media-breakpoint-only(xs) {
+        & {}
+    }
+    @include media-breakpoint-only(sm) {
+        & {}
+    }
+    @include media-breakpoint-only(md) {
+        & {}
+    }
+    @include media-breakpoint-only(lg) {
+        & {}
+    }
+    @include media-breakpoint-only(xl) {
+        & {}
+    }
+}
