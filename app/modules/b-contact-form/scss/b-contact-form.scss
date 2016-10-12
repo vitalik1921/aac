@@ -1,0 +1,66 @@
+@import "../../../base/core/mixins";
+//
+//*****************************************************************************
+// b-contact-form
+//*****************************************************************************
+//
+//
+@include block(b-contact-form) {
+    background-color: #E0E0E0;
+    width: 100%;
+    @include element(title) {
+        text-transform: uppercase;
+        color: #737373;
+        font-weight: 100;
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 22px;
+        margin-top: 0;
+    }
+    @include element(form) {}
+    @include element(input) {
+    	display: block;
+    	width: 100%;
+    	height: 44px;
+    	margin-bottom: 15px;
+    	padding-left: 15px;
+    	padding-right: 15px;
+    	font-size: 14px;
+    	color: #737373;
+    }
+    @include element(textarea) {
+    	display: block;
+    	width: 100%;
+    	height: 177px;
+    	padding: 15px;
+    	resize: none;
+    	margin-bottom: 15px;
+    	color: #737373;
+    	border: none;
+    }
+    @include element(button) {
+    	min-width: 160px;
+    	height: 44px;
+    	background-color: #BEDDE1;
+    	text-align: center;
+    	text-transform: uppercase;
+    	border: none;
+    	color: #737373;
+    }
+    // media queries
+    @include media-breakpoint-only(xs) {
+        & {}
+    }
+    @include media-breakpoint-only(sm) {
+        & {}
+    }
+    @include media-breakpoint-only(md) {
+        & {}
+    }
+    @include media-breakpoint-only(lg) {
+        & {}
+    }
+    @include media-breakpoint-only(xl) {
+        & {}
+    }
+}

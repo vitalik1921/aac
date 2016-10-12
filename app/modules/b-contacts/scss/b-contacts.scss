@@ -1,0 +1,49 @@
+@import "../../../base/core/mixins";
+//
+//*****************************************************************************
+// b-contacts
+//*****************************************************************************
+//
+//
+@include block(b-contacts) {
+    background-color: #E0E0E0;
+    @include mix(c-text, text) {
+        h3 {
+            text-transform: uppercase;
+            color: #737373;
+            font-weight: 100;
+            font-size: 25px;
+            line-height: 25px;
+            margin-bottom: 22px;
+            margin-top: 0;
+        }
+        p {
+            color: #737373;
+            font-weight: 100;
+            font-size: 14px;
+            line-height: 19px;
+        }
+        hr {
+        	border-top: 1px solid #fff;
+        	border-bottom: none;
+        	margin-top: 22px;
+        	margin-bottom: 22px;
+        }
+    }
+    // media queries
+    @include media-breakpoint-only(xs) {
+        & {}
+    }
+    @include media-breakpoint-only(sm) {
+        & {}
+    }
+    @include media-breakpoint-only(md) {
+        & {}
+    }
+    @include media-breakpoint-only(lg) {
+        & {}
+    }
+    @include media-breakpoint-only(xl) {
+        & {}
+    }
+}
