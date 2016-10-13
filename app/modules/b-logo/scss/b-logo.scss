@@ -14,12 +14,6 @@
         background: url('../img/logo.svg') 0 0 no-repeat;
         background-size: contain;
     }
-    //mod - black
-    @include modifier(black) {
-        @include element(item) {
-            background: url('../img/logo--black.svg') 0 0 no-repeat;
-        }
-    }
     @include media-breakpoint-only(xs) {
         & {}
     }
